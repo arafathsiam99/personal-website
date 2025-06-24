@@ -808,6 +808,9 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+.education-header a{
+  color: hsl(45, 100%, 70%);
+}
 .timeline-item { position: relative; }
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
@@ -1142,6 +1145,7 @@ main {
   border-radius: 16px;
   z-index: 1;
 }
+
 
 .blog-post-item > a::before {
   content: "";
